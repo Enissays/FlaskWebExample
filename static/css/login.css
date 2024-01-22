@@ -1,0 +1,30 @@
+.login_container
+{
+    display : grid; 
+    position : absolute;
+    top : 30%;
+    left : 50%;
+    transform : translate(-50%,-30%);
+}
+
+.login_container h1 
+{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align : center;
+    font-size : 2.5rem;
+    color : #178543;
+}
+
+.login_container form 
+{
+    display : grid;
+    grid-template-columns : 1fr;
+    margin-top : 1rem;
+}
+
+.login_container label 
+{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size : 1.5rem;
+    color : #178543;
+}
